@@ -59,25 +59,27 @@ export default function Details({
                 </div>
 
                 <Header1 headerText={ninja.name} />
-                <p>
-                    Contact:{" "}
-                    <a
-                        href={`mailto:${ninja.email}`}
-                        className="text-blue-500 underline">
-                        {ninja.email}
-                    </a>
-                </p>
-                <p>
-                    Website:{" "}
-                    <a
-                        rel="nofollow"
-                        referrerPolicy={"no-referrer"}
-                        href={ninja.website}
-                        className="text-blue-500 underline">
-                        {ninja.website}
-                    </a>
-                </p>
-                <p>City: {ninja.address.city}</p>
+                <div className="text-center">
+                    <p>
+                        Contact:{" "}
+                        <a
+                            href={`mailto:${ninja.email}`}
+                            className="text-blue-500 underline">
+                            {ninja.email}
+                        </a>
+                    </p>
+                    <p>
+                        Website:{" "}
+                        <a
+                            rel="nofollow"
+                            referrerPolicy={"no-referrer"}
+                            href={ninja.website}
+                            className="text-blue-500 underline">
+                            {ninja.website}
+                        </a>
+                    </p>
+                    <p>City: {ninja.address.city}</p>
+                </div>
             </div>
         </>
     );
