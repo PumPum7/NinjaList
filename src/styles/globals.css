@@ -1,0 +1,19 @@
+/* purgecss start ignore */
+@tailwind base;
+
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+/* purgecss start ignore */
+@layer base {
+    body {
+        @apply bg-gray-100;
+        @apply text-gray-800;
+    }
+
+    a {
+        @apply text-gray-800;
+        @apply no-underline;
+    }
+}
