@@ -12,10 +12,10 @@ export default function Home() {
             </Head>
             <div>
                 <Header1 headerText={"Ninja List"} />
-                <p className="text-center text-gray-600 md:text-left">
+                <p className="text-center text-nord-3 dark:text-nord-4 md:text-left">
                     Lorem, ipsum dolor sit amet, consectetur adipiscing elit
                 </p>
-                <p className="text-center text-gray-600 md:text-left">
+                <p className="text-center text-nord-3 dark:text-nord-4 md:text-left">
                     Lorem ipsum dolor sit, ipsum dolor sit amet, consectetur
                     adipiscing elit
                 </p>

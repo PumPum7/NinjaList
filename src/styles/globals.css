@@ -8,12 +8,15 @@
 /* purgecss start ignore */
 @layer base {
     body {
-        @apply bg-gray-100;
-        @apply text-gray-800;
+        @apply bg-nord-4;
+        @apply dark:bg-nord-1;
+        @apply text-nord-0;
+        @apply dark:text-nord-4;
     }
 
     a {
-        @apply text-gray-800;
+        @apply text-nord-1;
+        @apply dark:text-nord-5;
         @apply no-underline;
     }
 }

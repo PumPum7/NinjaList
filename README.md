@@ -27,5 +27,5 @@ The website currently has three main pages:
 
 ## Changes made
 
-The biggest difference to the original version is the complete rewrite from CSS to TailwindCSS and the change from Javascript to Typescript, which offers a better developer experience. 
-Another addition to show of TailwindCSS better was the addition of images.
+The biggest difference to the original version is the complete rewrite from CSS to TailwindCSS and the change from Javascript to Typescript, which offers a better developer experience.
+Two additions in the form of Images, and a dark mode have been made to show off Tailwind CSS better.

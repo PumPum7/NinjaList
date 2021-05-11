@@ -8,7 +8,7 @@ export const NinjaListing = ({ ninja }: { ninja: Ninja }): JSX.Element => {
     return (
         <div
             className={
-                "mx-1 my-6 px-8 py-10 bg-white border-l-8 hover:border-blue-600 border-white rounded-md"
+                "mx-1 my-6 px-8 py-10 bg-nord-5 dark:bg-nord-3 border-l-8 hover:border-nord-8 border-nord-5 dark:border-nord-3 dark:hover:border-nord-9 rounded-md"
             }>
             <Link href={`/ninjas/${ninja.id}`}>
                 <a className="block">
