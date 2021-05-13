@@ -5,7 +5,7 @@ import { useState } from "react";
 import ThemeChanger from "@components/ThemeChange";
 
 export default function Navbar() {
-    const [logo, setLogo] = useState("light");
+    const [logo, setLogo] = useState<string>("light");
 
     return (
         <nav className="flex content-end items-end mb-6 mt-3 mx-auto border-gray-100 border-b-1">
@@ -51,7 +51,7 @@ export function NavbarItem({
 }): JSX.Element {
     return (
         <Link href={linkTo}>
-            <a className={`ml-4 ` + classNames || ""}>{category}</a>
+            <a className={`ml-4 ` + classNames}>{category}</a>
         </Link>
     );
 }

@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 export const ThemeChanger = ({
     changeLogo,
 }: {
-    changeLogo: any;
+    changeLogo: (theme: string) => void;
 }): JSX.Element => {
-    const [theme, setTheme] = useState("light");
+    const [theme, setTheme] = useState<string>("light");
 
     useEffect(() => {
         if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
